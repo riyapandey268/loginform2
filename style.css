@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 70vh;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: #23a455;
+    border-radius: 20px;
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 300px;
+}
+
+.icon img {
+    height: 50px;
+    width: 50px;
+}
+
+.logo h3 {
+    margin-left: 10px;
+    color: white;
+}
+
+.leftcontent {
+    width: 250px;
+}
+
+.loginform h1 {
+    margin-top: 70px;
+    color: white;
+}
+
+.addonns h4 {
+    margin-top: 100px;
+    color: white;
+}
+
+.lowerpart {
+    margin-left: 10px;
+    color: white;
+}
+
+.rightcontent {
+    height: 60vh;
+    border: none;
+    width: 50vh;
+    margin-top: 40px;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.login h2 {
+    margin-top: 30px;
+
+}
+
+.username input {
+
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.psswrd input {
+    height: 40px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.login1 button {
+    height: 40px;
+    width: 250px;
+    /* padding: 10px; */
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #23a455;
+    -webkit-box-shadow: 7px 8px 5px 0px rgba(245, 235, 245, 1);
+    -moz-box-shadow: 7px 8px 5px 0px rgba(245, 235, 245, 1);
+    box-shadow: 7px 8px 5px 0px rgba(245, 235, 245, 1);
+}
+
+.remember {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.remember .span2 {
+    color: #23a455;
+}
+
+.span1 {
+    color: rgb(101, 99, 99);
+}
+
+.foranaccnt {
+    margin-top: 50px;
+    color: rgb(214, 203, 203);
+}
